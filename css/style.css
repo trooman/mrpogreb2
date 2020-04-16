@@ -24,7 +24,7 @@ a {
 .header {
   padding-top: 53px;
   background: url(../img/header/header-bg.jpg) no-repeat center top/cover;
-  height: 770px;
+  height: 695px;
 }
 
 .header-top-wrapper {
@@ -59,7 +59,7 @@ a {
 }
 
 .top-place-text {
-  font-size: 25px;
+  font-size: 20px;
   line-height: 1.44;
   letter-spacing: normal;
   color: #c9c9c9;
@@ -67,17 +67,18 @@ a {
 
 .header-middle-wrapper {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: space-between;
 }
 
 .header-middle-text {
   margin-top: 50px;
-  width: 500px;
-  font-size: 50px;
+  width: 400px;
+  font-size: 43px;
   line-height: 1;
   letter-spacing: normal;
   color: #ffffff;
+  margin-bottom: 36px;
 }
 
 .header-middle-title {
@@ -86,7 +87,7 @@ a {
 
 .header-btn-info {
   margin-top: 53px;
-  padding: 0px 30px;
+  padding: 15px 30px;
   border-color: #009723;
   border-radius: 8px;
   outline: none;
@@ -116,16 +117,17 @@ a {
   z-index: 1;
   position: fixed;
   bottom: 0;
-  border: 1px solid black;
   display: flex;
   justify-content: space-between;
-  height: 100px;
+  height: 58px;
   background-color: #fff;
   /* margin-top: 90px; */
   left: 50%;
   transform: translate(-50%);
   width: 100%;
   max-width: 1200px;
+  border-radius: 6px 6px 0 0;
+  overflow: hidden;
 }
 
 .header-botton-first-block {
@@ -138,12 +140,12 @@ a {
 }
 
 .navbar-list {
-  margin: 20px 0 0 30px;
-  font-size: 20px;
+  margin: 2px 0 0 30px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.44;
   letter-spacing: normal;
-  margin-right: 20px;
+  margin-right: 25px;
 }
 
 .navbar-link {
@@ -167,8 +169,12 @@ a {
   margin-right: 27px;
 }
 
+.call-icon {
+  width: 70%;
+}
+
 .navbar-number {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
   line-height: 1.44;
   letter-spacing: normal;
@@ -176,7 +182,7 @@ a {
 }
 
 .header-bottom-name {
-  font-size: 17px;
+  font-size: 15px;
   line-height: 1.44;
   letter-spacing: normal;
   color: #ffffff;
@@ -190,7 +196,8 @@ a {
 
 .services {
   padding-top: 60px;
-  background: url(../img/services/services-background.jpg) no-repeat center top/cover;
+  background: url(../img/services/services-background.jpg) no-repeat center
+    top/cover;
   background-color: #efefef;
 }
 
@@ -202,14 +209,14 @@ a {
 }
 
 .services-title {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: bold;
   color: #181818;
 }
 
 .services-title-2 {
   font-weight: 500;
-  font-size: 40px;
+  font-size: 35px;
   color: #181818;
 }
 
@@ -229,13 +236,13 @@ a {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding-bottom: 73px;
+  height: 650px;
 }
 
 .services-first-block {
   background: url(../img/job/pogreb.jpg) no-repeat center top/cover;
   width: 47%;
-  height: 290px;
+  height: 250px;
   border-radius: 10px;
   margin-bottom: 20px;
 
@@ -249,7 +256,7 @@ a {
 .services-second-block {
   background: url(../img/job/kesson.jpg) no-repeat center top/cover;
   width: 47%;
-  height: 290px;
+  height: 250px;
   border-radius: 10px;
   margin-bottom: 20px;
 
@@ -263,7 +270,7 @@ a {
 .services-third-block {
   background: url(../img/job/kanalizacia.jpg) no-repeat center top/cover;
   width: 47%;
-  height: 290px;
+  height: 250px;
   border-radius: 10px;
   margin-bottom: 20px;
 
@@ -277,7 +284,7 @@ a {
 .services-fourth-block {
   background: url(../img/job/order.jpg) no-repeat center top/cover;
   width: 47%;
-  height: 290px;
+  height: 250px;
   border-radius: 10px;
   margin-bottom: 20px;
 
@@ -289,7 +296,7 @@ a {
 }
 
 .services-block-title {
-  font-size: 30px;
+  font-size: 23px;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
@@ -300,7 +307,7 @@ a {
 
 .services-block-description {
   width: 400px;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -313,28 +320,28 @@ a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 140px;
+  margin-top: 125px;
 }
 
 .services-second-block-wrapper {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 134px;
+  margin-top: 119px;
 }
 
 .services-third-block-wrapper {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 134px;
+  margin-top: 119px;
 }
 
 .services-fourth-block-wrapper {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 140px;
+  margin-top: 125px;
 }
 
 .services-block-price {
@@ -349,7 +356,7 @@ a {
 }
 
 .services-block-button {
-  padding: 0px 17px;
+  padding: 12px 17px;
   border-color: #009723;
   border-radius: 8px;
   background-color: #009723;
@@ -452,7 +459,7 @@ a {
 }
 
 .portfolio-title {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: bold;
   color: #ffffff;
   position: relative;
@@ -468,7 +475,7 @@ a {
 
 .portfolio-btn {
   margin-top: 53px;
-  padding: 0 30px;
+  padding: 15px 30px;
   border-color: #ff2b16;
   border-radius: 8px;
   outline: none;
@@ -497,7 +504,7 @@ a {
 .portfolio-right-block::before {
   content: "";
   width: 100%;
-  height: 742px;
+  height: 687px;
   top: -60px;
   left: 80px;
   position: absolute;
@@ -551,14 +558,14 @@ a {
 }
 
 .steps-title {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: bold;
   color: #181818;
 }
 
 .steps-title-2 {
   font-weight: 500;
-  font-size: 40px;
+  font-size: 35px;
   color: #181818;
 }
 
@@ -646,6 +653,7 @@ a {
   font-size: 30px;
   line-height: 1.2;
   letter-spacing: normal;
+  font-weight: 500;
   color: #009723;
 }
 
@@ -741,22 +749,6 @@ a {
   margin-bottom: 33px;
 }
 
-/* OMG */
-/* .popup-image {
-  width: 48%;
-} */
-
-/* .image-description {
-  text-align: center;
-  color: #ffffff;
-} */
-
-/* .popup-image-plus-description {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
-
 @keyframes animatetop {
   from {
     top: -300px;
@@ -794,8 +786,88 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 35%;
 }
 
 .certificate-pic-open.active {
   display: block;
+}
+
+/* services first open block */
+.pogreb-content {
+  display: none;
+  position: relative;
+  height: 642px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.pogreb-btn {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  padding: 0 30px;
+  border-color: #d8230b;
+  border-radius: 8px;
+  background-color: #d8230b;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 3;
+  letter-spacing: 2px;
+  color: #ffffff;
+  outline: none;
+}
+
+.fade-in {
+  animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* PORTFOLIO NEXT */
+
+.portfolio-next {
+  display: none;
+  padding: 50px 0;
+  height: 687px;
+  background-color: #181818;
+}
+
+.portfolio-next-pic-wrapper {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.portfolio-next-pic {
+  margin-bottom: 10px;
+  width: 24%;
+  height: 35%;
+}
+
+.portfolio-back-btn {
+  margin-left: 5px;
+  margin-top: 53px;
+  cursor: pointer;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 4;
+  letter-spacing: 2px;
+  color: rgb(255, 255, 255);
+  padding: 15px 30px;
+  border-color: #009723;
+  border-radius: 8px;
+  outline: none;
+  background: #009723;
 }
